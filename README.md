@@ -46,7 +46,6 @@ The data file contains real-time sensor data collected from helicopter turboshaf
 
 ## 🧠 Key Learnings
 - SMOTE significantly improves recall for minority fault classes
-- Deep learning models (especially CNN-LSTM) outperform classical ones
 - Class imbalance handling is crucial for real-world fault detection
 
 ---
