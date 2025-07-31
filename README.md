@@ -28,10 +28,11 @@ This end-to-end notebook includes:
 ## 📁 Dataset
 
 The project uses a dataset with labeled engine data indicating normal and multiple faulty conditions. Each instance represents sensor readings and other operational parameters.
+The data file contains real-time sensor data collected from helicopter turboshaft engines for fault detection and predictive maintenance. It includes hourly readings from March 1, 2024, to December 31, 2024, capturing key engine parameters such as temperature, pressure, vibration, speed, and fuel flow.
 
 > **Note:** Dataset is sourced from an open-access Helicopter Turboshaft Fault Detection archive. Dataset: [C-MAPSS Helicopter Engine Dataset](https://www.kaggle.com/datasets/ziya07/helicopter-turboshaft-detection-dataset)
 
-This file contains real-time sensor data collected from helicopter turboshaft engines for fault detection and predictive maintenance. It includes hourly readings from March 1, 2024, to December 31, 2024, capturing key engine parameters such as temperature, pressure, vibration, speed, and fuel flow.
+
 ---
 
 ## 🧪 Model Summary
@@ -65,7 +66,7 @@ Copy
 Edit
 pip install -r requirements.txt
 
-3. Run the Streamlit App
+### 3. Run the Streamlit App
 
 Copy
 Edit
