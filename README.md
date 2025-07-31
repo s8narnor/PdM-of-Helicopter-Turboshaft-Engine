@@ -30,6 +30,7 @@ This end-to-end notebook includes:
 The project uses a dataset with labeled engine data indicating normal and multiple faulty conditions. Each instance represents sensor readings and other operational parameters.
 
 > **Note:** Dataset is sourced from an open-access Helicopter Turboshaft Fault Detection archive. Dataset: [C-MAPSS Helicopter Engine Dataset](https://www.kaggle.com/datasets/ziya07/helicopter-turboshaft-detection-dataset)
+
 This file contains real-time sensor data collected from helicopter turboshaft engines for fault detection and predictive maintenance. It includes hourly readings from March 1, 2024, to December 31, 2024, capturing key engine parameters such as temperature, pressure, vibration, speed, and fuel flow.
 ---
 
@@ -51,20 +52,21 @@ This file contains real-time sensor data collected from helicopter turboshaft en
 
 ## 🚀 Run Locally
 
+```bash
+
 ### 1. Clone the repo
 
-```bash
 git clone https://github.com/s8narnor/pdm-turboshaft-helicopter.git
 cd pdm-turboshaft-helicopter
 
-### 2. Install requirements
-bash
+### 2. Install dependencies
+
 Copy
 Edit
 pip install -r requirements.txt
 
-### 3. Launch Streamlit App
-bash
+3. Run the Streamlit App
+
 Copy
 Edit
 streamlit run app.py
